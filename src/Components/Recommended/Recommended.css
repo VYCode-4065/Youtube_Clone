@@ -17,3 +17,12 @@
   font-size: 14px;
   margin-bottom: 5px;
 }
+@media (max-width: 900px) {
+  .recommended {
+    flex-basis: 100%;
+  }
+  .side-video-list img {
+    flex-basis: 49%;
+    width: 50%;
+  }
+}

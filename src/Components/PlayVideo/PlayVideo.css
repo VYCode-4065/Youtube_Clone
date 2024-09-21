@@ -112,3 +112,14 @@
   margin-right: 20px;
   color: #5a5a5a;
 }
+@media (max-width: 900px) {
+  .play-video {
+    flex-basis: 100%;
+  }
+  .play-video iframe {
+    height: 70vh;
+  }
+  .vid-description {
+    padding-left: 5px;
+  }
+}
